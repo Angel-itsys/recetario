@@ -4,6 +4,7 @@
   --texto: #1f1c18;
   --texto-suave: #6b645c;
   --acento: #c2532b;
+  --sobre-acento: #ffffff; /* texto sobre fondo --acento */
   --borde: #e6e0d8;
   --radio: 10px;
   --ancho-max: 960px;
@@ -18,6 +19,7 @@
     --texto: #f1ece6;
     --texto-suave: #a9a097;
     --acento: #e8784f;
+    --sobre-acento: #171513;
     --borde: #36312c;
   }
 }
@@ -82,7 +84,7 @@ a {
 .boton--principal {
   border-color: var(--acento);
   background: var(--acento);
-  color: #fff;
+  color: var(--sobre-acento);
 }
 
 .boton:focus-visible,
